@@ -1,0 +1,32 @@
+{
+  "name": "babylontexturecanvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npx webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-asada-ab/BabylonTextureCanvas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-asada-ab/BabylonTextureCanvas/issues"
+  },
+  "homepage": "https://github.com/r-asada-ab/BabylonTextureCanvas#readme",
+  "devDependencies": {
+    "ammo.js": "github:kripken/ammo.js",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0"
+  }
+}
